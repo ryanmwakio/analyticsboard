@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryan Mwakio | Analytics Board</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./favi-icon.png" type="image/x-icon">
+    <script src="./chartjs/Chart.min.js"></script>
+  </head>
+  <body>
+
+  <div class="container py-4">
+
+         <h4 class="text-center title">Sample data visualization</h4>
+          <div class="chart my-3">
+              <canvas id="lineChart"></canvas>
+          </div>
+
+            <hr class="main-hr">
+
+          <div class="chart my-3">
+              <canvas id="radarChart"></canvas>
+          </div>
+
+             <hr class="main-hr">
+
+
+          <div class="chart my-3">
+              <canvas id="doughnutChart"></canvas>
+          </div>
+
+            <hr class="main-hr">
+
+          <div class="chart my-3">
+              <canvas id="polarChart"></canvas>
+          </div>
+
+             <hr class="main-hr">
+
+          <div class="chart my-3">
+              <canvas id="barChart"></canvas>
+          </div>
+   </div>
+
+   <footer class="footer">
+   
+   <p class="footer-text">
+   &copy; <script>
+   var year=new Date().getFullYear()
+   document.write(year)
+   </script> designed by Ryan mwakio
+   </p>
+   
+   </footer>
+
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
